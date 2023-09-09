@@ -32,8 +32,8 @@ func getSubmissionDetails(c *gin.Context) {
 		Track:         track,
 		UTCTime:       curr_utc_time.Format("2006-01-02T15:04:05Z"),
 		CurrentDay:    curr_utc_time.Weekday().String(),
-		GithubFileUrl: "random",
-		GithubRepoUrl: "rannnnnn",
+		GithubFileUrl: "https://github.com/usmahm/HNG_Task_1/blob/master/main.go",
+		GithubRepoUrl: "https://github.com/usmahm/HNG_Task_1",
 		StatusCode:    200,
 	}
 
