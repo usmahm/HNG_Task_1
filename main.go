@@ -15,7 +15,7 @@ type submission_details struct {
 	CurrentDay    string `json:"current_day"`
 	UTCTime       string `json:"utc_time"`
 	Track         string `json:"track"`
-	GithubFileUrl string `json:"github_file_uri"`
+	GithubFileUrl string `json:"github_file_url"`
 	GithubRepoUrl string `json:"github_repo_url"`
 	StatusCode    int    `json:"status_code"`
 }
