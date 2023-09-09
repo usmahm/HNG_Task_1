@@ -45,7 +45,7 @@ func getSubmissionDetails(c *gin.Context) {
 func main() {
 	router := gin.Default()
 
-	router.GET("/submission-details", getSubmissionDetails)
+	router.GET("/api", getSubmissionDetails)
 
 	port := os.Getenv("PORT")
 	if port == "" {
