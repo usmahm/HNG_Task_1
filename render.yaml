@@ -1,2 +1,2 @@
 buildCommand:
-  goVersion: go1.21.0
+  goVersion: go1.21
